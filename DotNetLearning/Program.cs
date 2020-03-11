@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DotNetLearning.Algorithms;
+using System;
 
 namespace DotNetLearning
 {
@@ -6,7 +7,7 @@ namespace DotNetLearning
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            PrimalityTest.PrintPrimes();
         }
     }
 }
