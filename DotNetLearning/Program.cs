@@ -1,4 +1,5 @@
 ﻿using DotNetLearning.Algorithms;
+using DotNetLearning.DesignPatterns.AbstractFactory;
 using System;
 
 namespace DotNetLearning
@@ -7,7 +8,7 @@ namespace DotNetLearning
     {
         static void Main(string[] args)
         {
-            PrimalityTest.PrintPrimes();
+            AFactory.RunFactories();
         }
     }
 }
